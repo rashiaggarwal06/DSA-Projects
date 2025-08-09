@@ -1,1 +1,44 @@
 
+#include<bits/stdc++.h>
+using namespace std;
+// Function to check if the given string has balanced brackets
+bool isBalanced(const string &exp){
+    stack<char> st; // Stack to store opening brackets
+    // Traverse each character in the expression
+    for(char ch : exp) {
+        // Push opening brackets to stack
+        if(ch == '(' || ch == '{' || ch == '['){
+            st.push(ch);
+        }
+        // Check closing brackets
+        else if(ch == ')' || ch == '}' || ch == ']'){
+            // If stack is empty, there's no matching opening bracket
+            if(st.empty()) return false;
+            char top = st.top();
+            st.pop();
+            // Check matching pairs
+            if((ch == ')' && top != '(') ||
+                (ch == '}' && top != '{') ||
+                (ch == ']' && top != '[')){
+                return false;
+            }
+        }
+    }
+    // If stack is empty at the end → balanced
+    return st.empty();
+}
+
+int main(){
+    string expr;
+    cout << "============================\n";
+    cout << "  Balanced Parentheses Checker\n";
+    cout << "============================\n";
+    cout << "Enter an expression: ";
+    getline(cin, expr);
+    if(isBalanced(expr)){
+        cout<<"The expression is Balanced!\n";
+    } else {
+        cout<<"The expression is NOT Balanced!\n";
+    }
+    return 0;
+}
