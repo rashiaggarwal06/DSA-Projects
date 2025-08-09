@@ -28,9 +28,9 @@ It uses the **Stack** data structure to validate pairs of `()`, `{}`, and `[]`.
 ---
 
 ## Sample Output
-  ===
+
   Balanced Parentheses Checker
-  ===
+  
 Enter an expression: {[a+b]*(x+2)}
 [OK] The expression is Balanced!
 
