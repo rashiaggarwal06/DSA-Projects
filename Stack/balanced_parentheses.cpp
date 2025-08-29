@@ -8,7 +8,7 @@ bool isBalanced(const string &exp){
         // Push opening brackets to stack
         if(ch == '(' || ch == '{' || ch == '['){
             st.push(ch);
-        }
+        } 
         // Check closing brackets
         else if(ch == ')' || ch == '}' || ch == ']'){
             // If stack is empty, there's no matching opening bracket
