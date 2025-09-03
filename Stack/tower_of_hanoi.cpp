@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 // Function to move a disk between two rods
 void moveDisk(stack<int>& src, stack<int>& dest, char s, char d) {
     int pole1Top = src.empty() ? INT_MAX : src.top();
