@@ -1,4 +1,4 @@
-#include<bits/stdc++.h> 
+#include<bits/stdc++.h>  
 using namespace std;
 // Function to check if the given string has balanced brackets
 bool isBalanced(const string &exp){
