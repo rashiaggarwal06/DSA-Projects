@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;  
 // Function to check if the given string has balanced brackets
-bool isBalanced(const string &exp){
+bool isBalanced(const string &exp){ 
     stack<char> st; // Stack to store opening brackets
     // Traverse each character in the expression
     for(char ch : exp) {
