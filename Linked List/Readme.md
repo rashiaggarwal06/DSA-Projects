@@ -2,8 +2,6 @@
 
 This repository contains **5 mini Linked List programs** implemented in C++. Each demonstrates different linked list operations.
 
----
-
 ## Programs and How to Run
 
 1. **Singly Linked List** (`singly_linked_list.cpp`)  
@@ -35,3 +33,8 @@ g++ palindrome_linked_list.cpp -o palindrome_linked_list
 g++ merge_sorted_lists.cpp -o merge_sorted_lists
 ./merge_sorted_lists
 ```
+# Author
+- Rashi Aggarwal
+- Aspiring Software Developer
+GitHub: https://github.com/rashiaggarwal06
+LinkedIn: 
