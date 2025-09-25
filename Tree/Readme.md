@@ -2,7 +2,6 @@
 
 This repository contains **5 mini Tree programs** implemented in C++. Each demonstrates different tree operations and algorithms.
 
----
 ## Programs and How to Run
 
 1. **Binary Search Tree (BST)** (`bst.cpp`)  
@@ -35,9 +34,8 @@ g++ expression_tree.cpp -o expression_tree
 ./expression_tree
 ```
 
-
 # Author
 - Rashi Aggarwal
 - Aspiring Software Developer
-- GitHub: 
-- LinkedIn: 
+- GitHub: https://github.com/rashiaggarwal06
+- LinkedIn: https://www.linkedin.com/in/rashiaggarwal06/
