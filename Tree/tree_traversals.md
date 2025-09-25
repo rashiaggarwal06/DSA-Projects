@@ -1,7 +1,3 @@
----
-## **2️⃣ Tree Traversals**
-
-```markdown
 # Tree Traversals - C++
 
 📌 **Project Overview**  
