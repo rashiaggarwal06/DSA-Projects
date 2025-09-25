@@ -36,5 +36,5 @@ g++ merge_sorted_lists.cpp -o merge_sorted_lists
 # Author
 - Rashi Aggarwal
 - Aspiring Software Developer
-GitHub: https://github.com/rashiaggarwal06  <br>
-LinkedIn: https://www.linkedin.com/in/rashiaggarwal06/
+- GitHub: https://github.com/rashiaggarwal06  <br>
+- LinkedIn: https://www.linkedin.com/in/rashiaggarwal06/
