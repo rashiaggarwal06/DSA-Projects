@@ -3,7 +3,7 @@ using namespace std;
 struct Node {
     int data;
     Node* left;
-    Node* right;
+    Node* right; 
 };
 Node* insert(Node* root, int val) {
     if(!root) return new Node{val, nullptr, nullptr};
