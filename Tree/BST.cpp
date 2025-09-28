@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-struct Node {
+struct Node { 
     int data;
     Node* left;
     Node* right; 
